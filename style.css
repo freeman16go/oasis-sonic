@@ -1,0 +1,178 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1F2937;
+  color: white;
+  padding: 20px 60px;
+}
+
+.logo h1 {
+  font-size: 42px;
+}
+
+.nav {
+  display: flex;
+  gap: 40px;
+}
+
+.nav a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+/* Introduction Section */
+.introduction {
+  background-color: #1F2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 60px;
+  flex-wrap: wrap;
+}
+
+.intro-text {
+  max-width: 600px;
+  font-size: 24px;
+}
+
+.intro-text h2 {
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+
+.signup {
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 10%;
+  box-shadow: black;
+  color: white;
+  background: #3882f6;
+}
+
+.search-bar {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.search-bar input {
+  padding: 12px 18px;
+  font-size: 20px;
+  width: 60%;
+  height: 55px;
+}
+
+.intro-image img {
+  border-radius: 12px;
+  max-width: 100%;
+  height: auto;
+}
+
+.findahotel {
+  font-size: 32px;
+  width: 600px;
+  height: 60px;
+  border-radius: 10%;
+  box-shadow: black;
+  color: white;
+  background: #3882f6;
+}
+
+/* Title Section */
+.title-section {
+  text-align: center;
+  margin: 40px auto;
+  font-size: 34px;
+}
+
+/* Gallery */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 40px;
+  gap: 20px;
+}
+
+.card {
+  text-align: center;
+  font-size: 20px;
+  max-width: 480px;
+}
+
+.card img {
+  border-radius: 20px;
+  border: 6px solid lightskyblue;
+  width: 70%;
+  height: auto;
+}
+
+/* Info Paragraph */
+.info-paragraph {
+  background-color: gainsboro;
+  padding: 34px;
+  text-align: center;
+  font-size: 24px;
+  font-style: italic;
+}
+
+/* Booking Form */
+.booking-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+  font-size: 24px;
+}
+
+.booking-form label {
+  margin-top: 10px;
+}
+
+.search-input,
+#checkin,
+#checkout {
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 10px;
+  width: 40%;
+  max-width: 600px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.search-input {
+  width: 120%;
+  height: 80px;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  padding: 48px;
+  background-color: #1F2937;
+  color: white;
+}
